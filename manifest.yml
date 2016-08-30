@@ -1,0 +1,12 @@
+applications:
+- name: BluemixStatus
+  instances: 1
+  memory: 512M
+  disk_quota: 512M
+  stack: cflinuxfs2
+    #### Required  ####
+  env:
+     CLDSTS_BXD_USER: eduardop@us.ibm.com 
+     CLDSTS_BXD_PASS:  lari4cai
+     CLDSTS_BXD_URL:  https://api.ng.bluemix.net
+

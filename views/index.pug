@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1.page-header #{title}
+  .row.charts
+  .table-responsive
+    table#status.table.table-striped
+      thead
+        tr
+          th Application
+          th Instances
+          th Status
