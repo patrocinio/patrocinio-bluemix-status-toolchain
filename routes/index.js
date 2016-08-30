@@ -7,7 +7,7 @@ var express = require('express'),
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', {
-    title: 'Bluemix Status for Moe',
+    title: 'Bluemix Status',
   });
 });
 
